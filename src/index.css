@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: hsl(0 0% 98%);
+  --accent: hsl(208.9 90.8% 57.5%);
+  --primary: hsl(222.2 47.4% 11.2%);
+  --surface: hsl(0 0% 100%);
+  --text-primary: hsl(240 10% 10.6%);
+  --text-secondary: hsl(240 10% 30%);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.card-shadow {
+  box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.12);
+}
