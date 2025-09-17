@@ -22,7 +22,7 @@ export function AppShell({ children, user, currentView, onNavigate, onLogout }) 
             <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
               <Building2 className="h-5 w-5 text-white" />
             </div>
-            <h1 className="text-xl font-bold text-primary">PropelAI</h1>
+            <h1 className="text-xl font-bold text-primary">KeyKeeperAI</h1>
           </div>
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -78,7 +78,7 @@ export function AppShell({ children, user, currentView, onNavigate, onLogout }) 
                 <Building2 className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-primary">PropelAI</h1>
+                <h1 className="text-xl font-bold text-primary">KeyKeeperAI</h1>
                 <p className="text-sm text-text-secondary">Property Management</p>
               </div>
             </div>
