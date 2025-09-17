@@ -34,7 +34,7 @@ export function LoginForm({ onLogin }) {
             <div className="mx-auto w-16 h-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-xl flex items-center justify-center mb-4">
               <Building2 className="h-8 w-8 text-white" />
             </div>
-            <h1 className="text-3xl font-bold text-primary mb-2">PropelAI</h1>
+            <h1 className="text-3xl font-bold text-primary mb-2">KeyKeeperAI</h1>
             <p className="text-text-secondary">AI-Powered Property Management</p>
           </div>
 
